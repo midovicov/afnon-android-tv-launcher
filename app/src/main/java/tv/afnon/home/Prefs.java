@@ -136,6 +136,18 @@ final class Prefs {
         new City("losangeles", "لوس أنجلوس", "Los Angeles", "الولايات المتحدة", "United States", 34.0522, -118.2437, NA),
         new City("toronto", "تورونتو", "Toronto", "كندا", "Canada", 43.6532, -79.3832, NA),
 
+        // Brazil
+        new City("maceio", "ماسيو", "Maceió", "البرازيل", "Brazil", -9.6498, -35.7089, MWL),
+        new City("brasilia", "برازيليا", "Brasília", "البرازيل", "Brazil", -15.7975, -47.8919, MWL),
+        new City("saopaulo", "ساو باولو", "São Paulo", "البرازيل", "Brazil", -23.5505, -46.6333, MWL),
+        new City("riodejaneiro", "ريو دي جانيرو", "Rio de Janeiro", "البرازيل", "Brazil", -22.9068, -43.1729, MWL),
+        new City("manaus", "ماناوس", "Manaus", "البرازيل", "Brazil", -3.1190, -60.0217, MWL),
+        new City("belem", "بيليم", "Belém", "البرازيل", "Brazil", -1.4558, -48.4902, MWL),
+        new City("portoalegre", "بورتو أليغري", "Porto Alegre", "البرازيل", "Brazil", -30.0346, -51.2177, MWL),
+        new City("salvador", "سلفادور", "Salvador", "البرازيل", "Brazil", -12.9777, -38.5016, MWL),
+        new City("recife", "ريسيفي", "Recife", "البرازيل", "Brazil", -8.0476, -34.8770, MWL),
+        new City("fortaleza", "فورتاليزا", "Fortaleza", "البرازيل", "Brazil", -3.7319, -38.5267, MWL),
+
         // India
         new City("bangalore", "بنغالور", "Bengaluru", "الهند", "India", 12.9716, 77.5946, IN, HANAFI),
         new City("kozhikode", "كوزيكود", "Kozhikode", "الهند", "India", 11.2588, 75.7804, IN),
@@ -245,7 +257,7 @@ final class Prefs {
             "Thailand", "Japan", "South Korea", "Turkey"},
         {"United Kingdom", "France", "Germany", "Netherlands", "Belgium", "Austria", "Switzerland", "Italy", "Spain",
             "Bosnia and Herzegovina"},
-        {"United States", "Canada"},
+        {"United States", "Canada", "Brazil"},
         {"Kenya", "Nigeria", "South Africa"},
         {"Australia", "New Zealand"},
     };
